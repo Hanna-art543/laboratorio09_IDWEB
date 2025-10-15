@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: system-ui, 'Helvetica Neue', sans-serif;
+    color: black;
+    background: white;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+}
+
+header, nav, footer {
+    padding: 15px;
+    text-align: center;
+}
+
+header, footer {
+    background: black;
+    color: white;
+}
+
+nav {
+    background: #e6ecf3;
+}
+
+/*MAIN con Flex*/
+main {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+
+article {
+    flex: 3;
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+aside {
+    flex: 1;
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+}
