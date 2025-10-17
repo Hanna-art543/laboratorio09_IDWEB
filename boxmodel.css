@@ -20,4 +20,5 @@ body {
   width: 150px;
   box-sizing: border-box; /* Incluye el padding y borde en el ancho total */
   background-color: white;
+  box-sizing: border-box;
   }
